@@ -1,0 +1,36 @@
+# Python 編譯/快取檔案
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# 虛擬環境資料夾（如果你有用 venv）
+env/
+venv/
+ENV/
+.VENV/
+
+# C++ 編譯產物
+*.exe
+*.out
+*.o
+*.obj
+
+# VSCode 設定
+.vscode/
+
+# Windows 系統檔案
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 通用暫存或備份檔
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Git 忽略的資料夾（避免上傳自己測試或垃圾資料）
+build/
+dist/
