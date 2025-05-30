@@ -1,0 +1,9 @@
+import random
+
+A = list(range(8))
+random.shuffle(A)
+B = [(x, i) for i, x in enumerate(A)]
+B.sort(reverse=True)
+print(B)#數值由大排到小，(x, i) x是值 i是他所在的位置index
+
+print(B.pop()) # 拿出最小值
